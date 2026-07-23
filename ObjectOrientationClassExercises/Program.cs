@@ -8,9 +8,9 @@ namespace ObjectOrientationClassExercises
 
         static void Main(string[] args)
         {
-            //EncapsulationSample.Run();
+            EncapsulationSample.Run();
 
-            AbstractionSample.Run();
+            //AbstractionSample.Run();
 
         }
     }

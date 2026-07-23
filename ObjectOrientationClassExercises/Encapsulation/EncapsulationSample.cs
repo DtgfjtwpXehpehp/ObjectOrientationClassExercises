@@ -15,7 +15,7 @@ namespace ObjectOrientationClassExercises.Encapsulation
             BankAccount bankAccount = new BankAccount(12345, "John Doe", AccountType.Savings, 680, 6789, expiryDate);
 
             Console.WriteLine($"Welcome {bankAccount.AccountHolder}");
-            Console.WriteLine($"Your balance is {bankAccount.Balance}");
+            Console.WriteLine($"Your balance is {bankAccount.Balance:C}");
             Console.WriteLine("-----------------------------------");
 
             bool exitApp = false;
