@@ -64,7 +64,7 @@ namespace ObjectOrientationClassExercises.Encapsulation
 
                         if (transactionResult == TransactionResult.Successful)
                         {
-                            Console.WriteLine($"Transaction Successful!! Your New Balance is: {bankAccount.Balance} ");
+                            Console.WriteLine($"Transaction Successful!! Your New Balance is: {bankAccount.Balance:C} ");
                         }
                         else
                         {
@@ -86,11 +86,11 @@ namespace ObjectOrientationClassExercises.Encapsulation
 
                         if (transactionResult == TransactionResult.Successful)
                         {
-                            Console.WriteLine($"Transaction Successful!! Your New Balance is: {bankAccount.Balance} ");
+                            Console.WriteLine($"Transaction Successful!! Your New Balance is: {bankAccount.Balance:C} ");
                         }
                         else if (transactionResult == TransactionResult.InsufficientFunds)
                         {
-                            Console.WriteLine($"Insufficient Funds! Your Balance is: {bankAccount.Balance}");
+                            Console.WriteLine($"Insufficient Funds! Your Balance is: {bankAccount.Balance:C}");
                         }
                         else
                         {
@@ -113,7 +113,7 @@ namespace ObjectOrientationClassExercises.Encapsulation
                                 Console.ForegroundColor = ConsoleColor.Green;
                             }
 
-                            Console.WriteLine($"Transaction Date: {transaction.TransactionDateTime} Amount: {transaction.Amount} Reference: {transaction.Reference} Description: {transaction.Description} Transaction Type: {transaction.TransactionType} ");
+                            Console.WriteLine($"Transaction Date: {transaction.TransactionDateTime} Amount: {transaction.Amount:C} Reference: {transaction.Reference} Description: {transaction.Description} Transaction Type: {transaction.TransactionType} ");
 
                             Console.ForegroundColor = defaultColor;
                         }
