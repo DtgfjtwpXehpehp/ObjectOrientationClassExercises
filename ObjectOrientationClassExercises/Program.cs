@@ -1,5 +1,6 @@
 ﻿using ObjectOrientationClassExercises.Abstraction;
 using ObjectOrientationClassExercises.Encapsulation;
+using ObjectOrientationClassExercises.Inheritance;
 
 namespace ObjectOrientationClassExercises
 {
@@ -8,9 +9,11 @@ namespace ObjectOrientationClassExercises
 
         static void Main(string[] args)
         {
-            EncapsulationSample.Run();
+            //EncapsulationSample.Run();
 
             //AbstractionSample.Run();
+
+            InheritanceSample.Run();
 
         }
     }
