@@ -2,6 +2,7 @@
 using ObjectOrientationClassExercises.Encapsulation;
 using ObjectOrientationClassExercises.Inheritance;
 using ObjectOrientationClassExercises.Polymorphism;
+using ObjectOrientationClassExercises.Interfaces;
 
 namespace ObjectOrientationClassExercises
 {
@@ -16,7 +17,11 @@ namespace ObjectOrientationClassExercises
 
             //InheritanceSample.Run();
 
-            PolymorphismSample.Run();
+            //PolymorphismSample.Run();
+
+            InterfacesSample sample = new InterfacesSample();
+
+            sample.Run();
 
         }
     }
