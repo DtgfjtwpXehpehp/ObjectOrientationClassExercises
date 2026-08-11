@@ -1,6 +1,7 @@
 ﻿using ObjectOrientationClassExercises.Abstraction;
 using ObjectOrientationClassExercises.Encapsulation;
 using ObjectOrientationClassExercises.Inheritance;
+using ObjectOrientationClassExercises.Polymorphism;
 
 namespace ObjectOrientationClassExercises
 {
@@ -13,7 +14,9 @@ namespace ObjectOrientationClassExercises
 
             //AbstractionSample.Run();
 
-            InheritanceSample.Run();
+            //InheritanceSample.Run();
+
+            PolymorphismSample.Run();
 
         }
     }
