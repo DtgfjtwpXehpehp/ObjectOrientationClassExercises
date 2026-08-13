@@ -6,6 +6,6 @@ namespace ObjectOrientationClassExercises.Interfaces
 {
     internal interface ILootable
     {
-        void Steal();x
+        void Steal();
     }
 }
